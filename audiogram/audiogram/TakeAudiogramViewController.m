@@ -8,7 +8,10 @@
 
 #import "TakeAudiogramViewController.h"
 
+
 @implementation TakeAudiogramViewController
+
+@synthesize actionSheet = _actionSheet;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +29,16 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
+}
+
+-(IBAction)showActionSheet:(id)sender
+{
+    if(self.actionSheet) {
+        //do nothing
+    } else {
+        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Take Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Camera", @"Photo Library", nil];
+        [actionSheet showInView:self.view];
+    }
 }
 
 #pragma mark - View lifecycle

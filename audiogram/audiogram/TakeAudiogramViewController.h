@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TakeAudiogramViewController : UIViewController
+@interface TakeAudiogramViewController : UIViewController <UIActionSheetDelegate>
+
+@property (strong, nonatomic) UIActionSheet *actionSheet;
+
+-(IBAction)showActionSheet:(id)sender;
 
 @end
