@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88D49109161A257300C58F6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D49108161A257300C58F6B /* UIKit.framework */; };
+		88D4910B161A257300C58F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D4910A161A257300C58F6B /* Foundation.framework */; };
+		88D4910D161A257300C58F6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D4910C161A257300C58F6B /* CoreGraphics.framework */; };
+		88D49113161A257300C58F6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88D49111161A257300C58F6B /* InfoPlist.strings */; };
+		88D49115161A257300C58F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D49114161A257300C58F6B /* main.m */; };
+		88D49119161A257300C58F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D49118161A257300C58F6B /* AppDelegate.m */; };
+		88D4911E161A257300C58F6B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D4911D161A257300C58F6B /* first.png */; };
+		88D49120161A257300C58F6B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D4911F161A257300C58F6B /* first@2x.png */; };
+		88D49125161A257300C58F6B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D49124161A257300C58F6B /* second.png */; };
+		88D49127161A257300C58F6B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D49126161A257300C58F6B /* second@2x.png */; };
+		88D4912A161A257300C58F6B /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D49128161A257300C58F6B /* FeedViewController.xib */; };
+		88D4912D161A257300C58F6B /* PopularViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4912B161A257300C58F6B /* PopularViewController.xib */; };
+		88D49135161A271C00C58F6B /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D49134161A271C00C58F6B /* FeedViewController.m */; };
+		88D4914B161A2DB900C58F6B /* PopularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D49149161A2DB900C58F6B /* PopularViewController.m */; };
+		88D49150161A2E1F00C58F6B /* TakeAudiogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4914E161A2E1F00C58F6B /* TakeAudiogramViewController.m */; };
+		88D49151161A2E1F00C58F6B /* TakeAudiogramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4914F161A2E1F00C58F6B /* TakeAudiogramViewController.xib */; };
+		88D49155161A2E7800C58F6B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D49153161A2E7800C58F6B /* ProfileViewController.m */; };
+		88D49156161A2E7800C58F6B /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D49154161A2E7800C58F6B /* ProfileViewController.xib */; };
+		88D4915F161A2EE400C58F6B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4915D161A2EE400C58F6B /* NewsViewController.m */; };
+		88D49161161A2F3B00C58F6B /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4915E161A2EE400C58F6B /* NewsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88D49104161A257300C58F6B /* audiogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audiogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D49108161A257300C58F6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88D4910A161A257300C58F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88D4910C161A257300C58F6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88D49110161A257300C58F6B /* audiogram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "audiogram-Info.plist"; sourceTree = "<group>"; };
+		88D49112161A257300C58F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88D49114161A257300C58F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88D49116161A257300C58F6B /* audiogram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "audiogram-Prefix.pch"; sourceTree = "<group>"; };
+		88D49117161A257300C58F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88D49118161A257300C58F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88D4911D161A257300C58F6B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		88D4911F161A257300C58F6B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		88D49124161A257300C58F6B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		88D49126161A257300C58F6B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		88D49129161A257300C58F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FeedViewController.xib; sourceTree = "<group>"; };
+		88D4912C161A257300C58F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PopularViewController.xib; sourceTree = "<group>"; };
+		88D49133161A271C00C58F6B /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		88D49134161A271C00C58F6B /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		88D49148161A2DB900C58F6B /* PopularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularViewController.h; sourceTree = "<group>"; };
+		88D49149161A2DB900C58F6B /* PopularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularViewController.m; sourceTree = "<group>"; };
+		88D4914D161A2E1F00C58F6B /* TakeAudiogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeAudiogramViewController.h; sourceTree = "<group>"; };
+		88D4914E161A2E1F00C58F6B /* TakeAudiogramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeAudiogramViewController.m; sourceTree = "<group>"; };
+		88D4914F161A2E1F00C58F6B /* TakeAudiogramViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeAudiogramViewController.xib; sourceTree = "<group>"; };
+		88D49152161A2E7800C58F6B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		88D49153161A2E7800C58F6B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		88D49154161A2E7800C58F6B /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		88D4915C161A2EE300C58F6B /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		88D4915D161A2EE400C58F6B /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		88D4915E161A2EE400C58F6B /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88D49101161A257300C58F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D49109161A257300C58F6B /* UIKit.framework in Frameworks */,
+				88D4910B161A257300C58F6B /* Foundation.framework in Frameworks */,
+				88D4910D161A257300C58F6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88D490F9161A257300C58F6B = {
+			isa = PBXGroup;
+			children = (
+				88D4910E161A257300C58F6B /* audiogram */,
+				88D49107161A257300C58F6B /* Frameworks */,
+				88D49105161A257300C58F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88D49105161A257300C58F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88D49104161A257300C58F6B /* audiogram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88D49107161A257300C58F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D49108161A257300C58F6B /* UIKit.framework */,
+				88D4910A161A257300C58F6B /* Foundation.framework */,
+				88D4910C161A257300C58F6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88D4910E161A257300C58F6B /* audiogram */ = {
+			isa = PBXGroup;
+			children = (
+				88D49117161A257300C58F6B /* AppDelegate.h */,
+				88D49118161A257300C58F6B /* AppDelegate.m */,
+				88D49133161A271C00C58F6B /* FeedViewController.h */,
+				88D49134161A271C00C58F6B /* FeedViewController.m */,
+				88D4915C161A2EE300C58F6B /* NewsViewController.h */,
+				88D4915D161A2EE400C58F6B /* NewsViewController.m */,
+				88D49148161A2DB900C58F6B /* PopularViewController.h */,
+				88D49149161A2DB900C58F6B /* PopularViewController.m */,
+				88D49152161A2E7800C58F6B /* ProfileViewController.h */,
+				88D49153161A2E7800C58F6B /* ProfileViewController.m */,
+				88D4914D161A2E1F00C58F6B /* TakeAudiogramViewController.h */,
+				88D4914E161A2E1F00C58F6B /* TakeAudiogramViewController.m */,
+				88D4911D161A257300C58F6B /* first.png */,
+				88D4911F161A257300C58F6B /* first@2x.png */,
+				88D49124161A257300C58F6B /* second.png */,
+				88D49126161A257300C58F6B /* second@2x.png */,
+				88D49128161A257300C58F6B /* FeedViewController.xib */,
+				88D4912B161A257300C58F6B /* PopularViewController.xib */,
+				88D49154161A2E7800C58F6B /* ProfileViewController.xib */,
+				88D4914F161A2E1F00C58F6B /* TakeAudiogramViewController.xib */,
+				88D4915E161A2EE400C58F6B /* NewsViewController.xib */,
+				88D4910F161A257300C58F6B /* Supporting Files */,
+			);
+			path = audiogram;
+			sourceTree = "<group>";
+		};
+		88D4910F161A257300C58F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88D49110161A257300C58F6B /* audiogram-Info.plist */,
+				88D49111161A257300C58F6B /* InfoPlist.strings */,
+				88D49114161A257300C58F6B /* main.m */,
+				88D49116161A257300C58F6B /* audiogram-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88D49103161A257300C58F6B /* audiogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D49130161A257300C58F6B /* Build configuration list for PBXNativeTarget "audiogram" */;
+			buildPhases = (
+				88D49100161A257300C58F6B /* Sources */,
+				88D49101161A257300C58F6B /* Frameworks */,
+				88D49102161A257300C58F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audiogram;
+			productName = audiogram;
+			productReference = 88D49104161A257300C58F6B /* audiogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88D490FB161A257300C58F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 88D490FE161A257300C58F6B /* Build configuration list for PBXProject "audiogram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88D490F9161A257300C58F6B;
+			productRefGroup = 88D49105161A257300C58F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D49103161A257300C58F6B /* audiogram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88D49102161A257300C58F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D49113161A257300C58F6B /* InfoPlist.strings in Resources */,
+				88D4911E161A257300C58F6B /* first.png in Resources */,
+				88D49120161A257300C58F6B /* first@2x.png in Resources */,
+				88D49125161A257300C58F6B /* second.png in Resources */,
+				88D49127161A257300C58F6B /* second@2x.png in Resources */,
+				88D4912A161A257300C58F6B /* FeedViewController.xib in Resources */,
+				88D4912D161A257300C58F6B /* PopularViewController.xib in Resources */,
+				88D49151161A2E1F00C58F6B /* TakeAudiogramViewController.xib in Resources */,
+				88D49156161A2E7800C58F6B /* ProfileViewController.xib in Resources */,
+				88D49161161A2F3B00C58F6B /* NewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D49100161A257300C58F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D49115161A257300C58F6B /* main.m in Sources */,
+				88D49119161A257300C58F6B /* AppDelegate.m in Sources */,
+				88D49135161A271C00C58F6B /* FeedViewController.m in Sources */,
+				88D4914B161A2DB900C58F6B /* PopularViewController.m in Sources */,
+				88D49150161A2E1F00C58F6B /* TakeAudiogramViewController.m in Sources */,
+				88D49155161A2E7800C58F6B /* ProfileViewController.m in Sources */,
+				88D4915F161A2EE400C58F6B /* NewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88D49111161A257300C58F6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D49112161A257300C58F6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88D49128161A257300C58F6B /* FeedViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D49129161A257300C58F6B /* en */,
+			);
+			name = FeedViewController.xib;
+			sourceTree = "<group>";
+		};
+		88D4912B161A257300C58F6B /* PopularViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D4912C161A257300C58F6B /* en */,
+			);
+			name = PopularViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88D4912E161A257300C58F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88D4912F161A257300C58F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88D49131161A257300C58F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "audiogram/audiogram-Prefix.pch";
+				INFOPLIST_FILE = "audiogram/audiogram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88D49132161A257300C58F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "audiogram/audiogram-Prefix.pch";
+				INFOPLIST_FILE = "audiogram/audiogram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88D490FE161A257300C58F6B /* Build configuration list for PBXProject "audiogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D4912E161A257300C58F6B /* Debug */,
+				88D4912F161A257300C58F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D49130161A257300C58F6B /* Build configuration list for PBXNativeTarget "audiogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D49131161A257300C58F6B /* Debug */,
+				88D49132161A257300C58F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88D490FB161A257300C58F6B /* Project object */;
+}
