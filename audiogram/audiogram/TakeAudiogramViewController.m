@@ -37,7 +37,8 @@
         //do nothing
     } else {
         UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Take Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Camera", @"Photo Library", nil];
-        [actionSheet showInView:self.view];
+//        [actionSheet showInView:self.view];
+        [actionSheet showFromTabBar:[(UITabBarController *) self.parentViewController tabBar]];
     }
 }
 
