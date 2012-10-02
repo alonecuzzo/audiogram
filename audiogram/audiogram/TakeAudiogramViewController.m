@@ -41,6 +41,27 @@
     }
 }
 
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    switch (buttonIndex) {
+        case 0:
+            NSLog(@"clicked camera");
+            break;
+            
+        case 1:
+        {
+            UIImagePickerController *pickerController = [[UIImagePickerController alloc] init];
+            pickerController.delegate = self;
+            pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+            [self presentModalViewController:pickerController animated:YES];
+            break;
+        }
+            
+        default:
+            break;
+    }
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad

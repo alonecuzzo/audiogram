@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TakeAudiogramViewController : UIViewController <UIActionSheetDelegate>
+@interface TakeAudiogramViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIActionSheetDelegate>
 
 @property (strong, nonatomic) UIActionSheet *actionSheet;
 
